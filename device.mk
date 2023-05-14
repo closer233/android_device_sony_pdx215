@@ -28,6 +28,7 @@ $(call inherit-product, device/sony/sm8350-common/common.mk)
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
+TARGET_BOOT_ANIMATION_RES := 1440
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
